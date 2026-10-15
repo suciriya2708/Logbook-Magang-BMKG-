@@ -407,6 +407,21 @@ tbody td a:hover {
     text-align: center;
 }
 
+/* Kolom Aksi: tombol Edit (✎) dan Hapus (✖) tetap sejajar, tidak turun baris */
+td:nth-child(6) {
+    white-space: nowrap;
+}
+
+/* Tombol Edit: ukuran/bentuk mengikuti gaya tombol umum (sama dengan tombol ✖),
+   hanya warnanya dibuat berbeda agar mudah dibedakan */
+.btn-edit {
+    background: #3a8f86;
+}
+
+.btn-edit:hover {
+    background: #2e7770;
+}
+
 
 /* =========================================
    9. TOMBOL PAGINATION
@@ -449,7 +464,7 @@ tbody td a:hover {
     font-weight: 700;
 }
 
-.pagination-info {
+.page-info {
     width: 100%;
     margin-top: 8px;
     color: #555555;
