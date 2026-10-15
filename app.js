@@ -1,5 +1,5 @@
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbzSRkLyYQWCWLlp-D_1wDMd1BOa8aR4YR5XNPD8H8nBGwoukhWOF-zX-CxRQvYAdHE/exec";
+  "https://script.google.com/macros/s/AKfycbxA2jNqtpCorm_BLRj-BF0mnKJPhy6-B36zav9WMPTbkN-6g4HVPg9KhmoIiwCGf1GJ/exec";
 
 // Elemen HTML
 const btnTambah = document.getElementById("btn-tambah");
